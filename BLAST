@@ -1,0 +1,12 @@
+Assignment_4 
+cd ~/Desktop/Assignment4
+#1) makeblastdb -in database_mystery_transcripts.fasta -dbtype nucl -out mystery_transcripts_db
+#2) makeblastdb -in database_mystery_proteins.fasta -dbtype prot -out mystery_proteins_db
+#3) blastn -db mystery_transcripts_db -query query_mystery_nucleotide.fasta -evalue 1e-3 -max_target_seqs 5 -outfmt 7 -out nucleotide_results.out
+#4) T010027234997
+#5) grep -v "^#" nucleotide_results.out | awk '$3>90 {print $2}' > most_similar.txt
+#6) blastp -db mystery_proteins_db -query query_mystery_protein.fasta -evalue 1e-5 -max_target_seqs 15 -outfmt 7 -out protein_results.out
+#7) P010027090796
+#8) Gardenia jasminoides
+#9) Gardenia jasminoides
+#10)catalase
