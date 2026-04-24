@@ -1,0 +1,7 @@
+The IGV screenshots show views of RNA-seq, ATAC-seq, non-coding OCRs, gene annotation, and Hi-C data.
+The RNA-seq tracks (red) show gene expression in this region, with visible peaks corresponding to actively transcribing genes.
+The ATAC-seq tracks (blue) show regions of open chromatin, meaning accessible DNA.
+The non-coding OCR tracks show open chromatin regions that do not overlap exons, showing potential regulatory elements, such as enhancers.
+The gene annotation track (green) identifies the location and structure of genes within this region.
+The Hi-C data (purple arcs) show chromatin looping interactions, showing physical contact between distant genomic regions.
+Altogether, these regions show that non-coding open chromatin regions may regulate gene expression through long-range chromatin interactions.
